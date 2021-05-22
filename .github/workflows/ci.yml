@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: buildpack-ci/buildpack-ci-action@master
+    - uses: buildpack-ci/buildpack-ci-action@v1
       env:
         BUILDPACK_URL: https://github.com/vincetse/heroku-buildpack-python
         DATABASE_URL: postgres://postgres:postgres@postgres:5432/test
